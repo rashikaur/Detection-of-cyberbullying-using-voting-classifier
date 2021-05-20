@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+  
+<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+<div class="results">
+
+<p id="message" style="text-align:center;font-size: 20px;"><strong>Message: </strong>{{message}}</p>
+
+{% if prediction == 1%}
+<h2 style="color:red ; text-align:center" >Bullying</h2>
+{% elif prediction == 0%}
+<h2 style="color:blue; text-align:center">Not Bullying</h2>
+{% endif %}
+
+</div>
+
+</body>
+</html> 
+
+
+
+
+{% endblock %}

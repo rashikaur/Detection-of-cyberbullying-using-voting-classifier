@@ -1,0 +1,88 @@
+/* resetting browser stuff */
+*     {
+    box-sizing: border-box;
+  }
+  html,
+  body   {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    color : #222;
+  }
+  
+  /* styling our overall page */
+  body     {
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+  }
+  
+  /* styling our header */
+  header   {
+    background: #222;
+    color: #FFF;
+    padding: 10px 20px;
+  }
+  
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  div.home {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+            border-radius: 12px;
+  }
+  div.about {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 40px;
+    text-align: center;
+    
+  }
+  h2 {
+    font-size: 2.5em;
+    margin-top: 40px;
+    text-align: center;
+    
+  }
+  h3 {
+    font-size: 1.7em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    color: #222;
+  }
+  
+.menu {
+    float: right;
+    margin-top: 8px;
+  }
+  .menu li {
+    display: inline;
+  }
+  .menu li + li {
+    margin-left: 35px;
+  }
+  .menu li a {
+    color: #444;
+    text-decoration: none;
+  }
+
+  .resultss{
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
